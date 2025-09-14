@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>xrpl</title>
+</head>
+<body>
+  <input type="text" placeholder="nyalakan musik" id="cariInput">
+  <button id="cariBtn">on</button>
+  <h1>semester 1</h1>
+  <br>
+  <h1>2025</h1>
+  <img src="WhatsApp Image 2025-08-17 at 11.28.46_ea5aeedc.jpg" width="150px" height="150px">
+  <img src="WhatsApp Image 2025-08-17 at 11.28.47_f2f656d5.jpg" width="150px" height="150px">
+  <img src="rpl rame.jpg" width="150px" height="150px">
+  <img src="rpl rame2.jpg" width="150px" height="150px">
+  <img src="fotorame.jpg" width="150px" height="150px">
+  <br>
+  <img src="foto rame2.jpg" width="150px" height="150px">
+  <img src="rpl cowok.jpg" width="150px" height="150px">
+  <img src="rpl cowok 2.jpg" width="150px" height="150px">
+  <img src="rpl cewekjpg.jpg" width="150px" height="150px">
+  <img src="rpl cewek 2.jpg" width="150px" height="150px">
+  
+
+
+  <!-- Musik tanpa kontrol -->
+  <audio id="musik" loop>
+    <source src="rpl2.mp3" type="audio/mpeg">
+  </audio>
+
+  <script>
+    // Ambil elemen audio
+    const musik = document.getElementById("musik");
+    const tombolCari = document.getElementById("cariBtn");
+
+    // Putar musik setelah tombol diklik
+    tombolCari.addEventListener("click", () => {
+      musik.play();
+      alert("Musik diputar!");
+    });
+  </script>
+</body>
+</html>
